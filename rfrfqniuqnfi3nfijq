@@ -1,0 +1,14 @@
+const myArr = [9,7,9,0,7,8,387,123,456];
+
+for ( myArr % 2 == 0) {
+	const item  = 0;
+    let bar = myArr[item];    
+	if (bar ==  0) {
+		template = `${bar} equal to 0 `
+	}
+	else {
+		template = `${bar} is a even number`
+	}
+	console.log(template);
+	item = item++;
+}
